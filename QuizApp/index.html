@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>JavaScrpit Quiz</title>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Can you name the dish?</h1>
+
+        <img src="https://st.depositphotos.com/3046849/3951/i/950/depositphotos_39515525-stock-photo-large-collage-of-many-different.jpg" class="qa-start-page-img" />
+    </header>
+
+    <main>
+
+        <section class="qa-start-page">
+
+            <p>How knowledgeable are you on dishes around the world? Think you got wat it takes to score high? Test your
+                knowledge here!</p>
+            <input type="button" value="Start" class="qa-js-start-btn">
+
+        </section>
+
+
+        <div class="qa-quiz-box">
+
+            <form class="qa-quiz-questions" id="qa-quiz-app-form">
+
+                <section id="qa-question-area">
+
+
+                </section>
+
+                <div class="qa-btn-container">
+                    <button type="submit" id="qa-js-submit-btn">Submit</button>
+                </div>
+            </form>
+
+            <div class="qa-progress-page">
+
+                <span class="qa-question-count"></span>
+
+                <span class="qa-score-card"></span>
+
+            </div>
+
+        </div>
+
+        <section class="qa-feedback-page">
+
+            <div id="qa-feedback-content-area">
+
+            </div>
+            <button class="qa-js-next-btn">Next</button>
+
+
+        </section>
+
+        <section class="qa-result-page">
+
+            <header>
+                <h1>
+                    Great Job! You finished.
+                </h1>
+
+                <nav>
+                    <div class="qa-btn-container">
+                        <button id="qa-js-restart-btn">Restart</button>
+                    </div>
+                </nav>
+
+            </header>
+
+        </section>
+
+
+
+
+
+    </main>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
